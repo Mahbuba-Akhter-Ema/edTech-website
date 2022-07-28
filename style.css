@@ -24,14 +24,27 @@
 .course-info p{
     padding: 0px 400px;
 }
-/* Media Query */
-@media (max-width: 720px) {
+/* Media Query For Small Device */
+@media (max-width: 520px) {
     .carousel-caption{
         top: 1%;
     }
     .carousel-caption h5{
         font-size: 22px;
-        padding: 0px 40px;
+        padding: 0px 20px;
+    }
+    .carousel-caption p{
+        padding: 0px 0px;
+    }
+}
+/* Media Query For Medium Device */
+@media (max-width: 720px) {
+    .carousel-caption{
+        top: 3%;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+        padding: 0px 50px;
     }
     .carousel-caption p{
         padding: 0px 20px;
@@ -41,9 +54,6 @@
     }
     .course-info p{
         padding: 0px 0px;
-    }
-    .test{
-        display: none;
     }
     .regi-info{
         text-align: center;
