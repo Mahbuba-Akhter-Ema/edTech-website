@@ -27,14 +27,14 @@
 /* Media Query */
 @media (max-width: 720px) {
     .carousel-caption{
-        top: 3%;
+        top: 1%;
     }
     .carousel-caption h5{
-        font-size: 30px;
-        padding: 0px 50px;
+        font-size: 22px;
+        padding: 0px 40px;
     }
     .carousel-caption p{
-        padding: 0px 30px;
+        padding: 0px 20px;
     }
     .course-info h1{
         padding: 0px 0px;
