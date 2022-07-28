@@ -1,0 +1,49 @@
+/* Slider */
+.carousel-caption{
+    top: 25%;
+}
+.carousel-caption h5{
+    font-size: 60px;
+    padding: 0px 100px;
+}
+.carousel-caption p{
+    padding: 0px 100px;
+}
+.carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: black;
+    opacity: 0.5;
+    border-radius: 5px;
+}
+
+/* Courses */
+.course-info h1{
+    padding: 0px 400px;
+}
+.course-info p{
+    padding: 0px 400px;
+}
+
+
+
+/* Media Query */
+@media (max-width: 720px) {
+    .carousel-caption{
+        top: 5%;
+    }
+    .carousel-caption h5{
+        font-size: 30px;
+        padding: 0px 50px;
+    }
+    .carousel-caption p{
+        padding: 0px 30px;
+    }
+    .course-info h1{
+        padding: 0px 0px;
+    }
+    .course-info p{
+        padding: 0px 0px;
+    }
+}
