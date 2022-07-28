@@ -26,12 +26,10 @@
     padding: 0px 400px;
 }
 
-
-
 /* Media Query */
 @media (max-width: 720px) {
     .carousel-caption{
-        top: 5%;
+        top: 3%;
     }
     .carousel-caption h5{
         font-size: 30px;
@@ -46,26 +44,26 @@
     .course-info p{
         padding: 0px 0px;
     }
+    .test{
+        display: none;
+    }
+    .regi-info{
+        text-align: center;
+    }
+    .regi-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .regi-btn .btn{
+        margin-left: 0 !important; 
+    }
+    .student-info{
+        text-align: center !important;
+    }
 }
-
-
-
 
 /* Footer ------
 --------------*/
 footer {
-    margin-top: 80px;
-    width: 100%;
-    height: auto;
     background: #161616;
-}
-.footer-img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-.footer-img img {
-    margin-top: 70px;
-    margin-bottom: 20px;
 }
